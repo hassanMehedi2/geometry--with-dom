@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+
+    <title>geometry</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section class="flex flex-col lg:flex-row my-14">
+            <!-- geometry section  -->
+            <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- first card -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/triangle.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Triangle</h2>
+                      <p>Area (A) = .5*h*b</p>
+                      <p >
+                        <input type="text" class="w-20 border-1 bg-gray-200" placeholder="base">
+                        <span class="ml-2"> cm</span>
+                      <input   type="text" class="w-20 border-1 bg-gray-200  ml-3" placeholder="height">
+                        <span class="ml-2"> cm</span>
+                      </p>
+                      
+                      <div class="card-actions justify-end">
+                        <button onclick="calculateTriangleArea()" class="btn btn-primary w-full">Calculate</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- second card -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/rectangle.png" alt="Shoes" 
+                        /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Triangle</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- third card -->
+                <div class="card w-96 bg-base-100 shadow-xl">
+                    <figure><img src="/images/rectangle.png" alt="Shoes" /></figure>
+                    <div class="card-body">
+                      <h2 class="card-title">Triangle</h2>
+                      <p>If a dog chews shoes whose shoes does he choose?</p>
+                      <div class="card-actions justify-end">
+                        <button class="btn btn-primary">Buy Now</button>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+<!-- calculate  -->
+            <div>
+                <p class="text-4xl w-[400px] text-center">Calculate Values</p>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
